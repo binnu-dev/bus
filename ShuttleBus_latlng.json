@@ -1,0 +1,40 @@
+﻿{
+    "Sheet1": [
+        {
+            "BusNo": "1",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상계동",
+            "StopName": "하계역5번출구 (택시승강장)",
+            "StopTime": "06:05",
+            "Latitude": "37.63559889",
+            "Longitude": "127.0674776"
+        },
+        {
+            "BusNo": "1",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상계동",
+            "StopName": "이문동방향 돌곶이사거리 (석관동삼천리자전거앞)",
+            "StopTime": "06:13",
+            "Latitude": "37.6094746",
+            "Longitude": "127.0582225"
+        },
+        {
+            "BusNo": "1",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상계동",
+            "StopName": "시조사20m후방",
+            "StopTime": "06:18",
+            "Latitude": "37.58779774",
+            "Longitude": "127.0530274"
+        },
+        {
+            "BusNo": "1",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상계동",
+            "StopName": "제기동(1호선1번)\r\n지하철파출소",
+            "StopTime": "06:27",
+            "Latitude": "37.58535264",
+            "Longitude": "127.0420195"
+        }
+    ]
+}
