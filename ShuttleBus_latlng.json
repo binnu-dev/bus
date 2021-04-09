@@ -1,4 +1,4 @@
-﻿{
+{
     "shuttlebuslist": [
         {
             "BusNo": "1",
@@ -35,6 +35,42 @@
             "StopTime": "06:27",
             "Latitude": "37.58535264",
             "Longitude": "127.0420195"
+        },
+        {
+            "BusNo": "2",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "마포",
+            "StopName": "마포경찰서 현대하이엘앞",
+            "StopTime": "06:38",
+            "Latitude": "37.55054179",
+            "Longitude": "126.9549775"
+        },
+        {
+            "BusNo": "2",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "마포",
+            "StopName": "공덕오거리 마포우체국(공사중) 신라스테이앞",
+            "StopTime": "06:40",
+            "Latitude": "37.54302449",
+            "Longitude": "126.9532116"
+        },
+        {
+            "BusNo": "2",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "마포",
+            "StopName": "여의도환승센타버스정류장",
+            "StopTime": "6:45",
+            "Latitude": "37.52545758",
+            "Longitude": "126.9240776"
+        },
+        {
+            "BusNo": "2",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "마포",
+            "StopName": "당산역",
+            "StopTime": "6:55",
+            "Latitude": "37.53412987",
+            "Longitude": "126.9019794"
         }
     ]
 }
