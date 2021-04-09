@@ -1,62 +1,64 @@
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>지도 생성하기</title>
-    
-</head>
-<body>
-<!-- 지도를 표시할 div 입니다 -->
-<div id="map" style="width:800;height:500px;"></div>
 
-<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26bcd796d202aa35c6cef7347d0fa171"></script>
-<script>
-    var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
-        mapOption = { 
-            center: new kakao.maps.LatLng(37.60500167715356, 127.05568978241878), // 지도의 중심좌표
-            level: 8 // 지도의 확대 레벨
-        };
-    
-    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-     
-    // 마커를 표시할 위치와 title 객체 배열입니다 
-    var positions = [
-        {
-            title: '하계역5번출구 / 6:05am', 
-            latlng: new kakao.maps.LatLng(37.63559889, 127.0674776)
-        },
-        {
-            title: '이문동방향 돌곶이사거리 / 6:13am', 
-            latlng: new kakao.maps.LatLng(37.6094746, 127.0582225)
-        },
-        {
-            title: '시조사20m후방 / 6:18am', 
-            latlng: new kakao.maps.LatLng(37.58779774, 127.0530274)
-        },
-        {
-            title: '제기동(1호선1번) 지하철파출소 / 6:27am',
-            latlng: new kakao.maps.LatLng(37.58535264, 127.0420195)
+</head>
+
+<body>
+    <!-- 지도를 표시할 div 입니다 -->
+    <div id="map" style="width:100%;height:100vh;"></div>
+
+    <script type="text/javascript"
+        src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26bcd796d202aa35c6cef7347d0fa171"></script>
+
+    <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = {
+                center: new kakao.maps.LatLng(37.6355988928871, 127.067477551033), // 지도의 중심좌표
+                level: 8 // 지도의 확대 레벨
+            };
+
+        var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+
+        var 데이터 = [
+            [37.6355988928871, 127.067477551033, '하계역5번출구 (택시승강장)', '06:05'],
+            [37.6094745975584, 127.058222469701, '이문동방향 돌곶이사거리 (석관동삼천리자전거앞)', '06:13'],
+            [37.5877977350754, 127.053027381783, '시조사20m후방', '06:18'],
+            [37.585352641182, 127.042019497463, '제기동(1호선1번)지하철파출소', '06:27']
+        ]
+
+        for (var i = 0; i < 데이터.length; i++) {
+
+            // 마커가 표시될 위치입니다 
+            var markerPosition = new kakao.maps.LatLng(데이터[i][0], 데이터[i][1]);
+
+            // 마커를 생성합니다
+            var marker = new kakao.maps.Marker({
+                position: markerPosition
+            });
+
+            // 마커가 지도 위에 표시되도록 설정합니다
+            marker.setMap(map);
+
+            var iwContent = '<div style="padding:5px;text-align:center;">' + 데이터[i][2] + '</br>' + 데이터[i][3] + '</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+                iwPosition = new kakao.maps.LatLng(데이터[i][0], 데이터[i][1]); //인포윈도우 표시 위치입니다
+
+            // 인포윈도우를 생성합니다
+            var infowindow = new kakao.maps.InfoWindow({
+                position: iwPosition,
+                content: iwContent
+            });
+
+            // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+            infowindow.open(map, marker);
+
         }
-    ];
-    
-    // 마커 이미지의 이미지 주소입니다
-    var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
-        
-    for (var i = 0; i < positions.length; i ++) {
-        
-        // 마커 이미지의 이미지 크기 입니다
-        var imageSize = new kakao.maps.Size(24, 35); 
-        
-        // 마커 이미지를 생성합니다    
-        var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize); 
-        
-        // 마커를 생성합니다
-        var marker = new kakao.maps.Marker({
-            map: map, // 마커를 표시할 지도
-            position: positions[i].latlng, // 마커를 표시할 위치
-            title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
-            image : markerImage // 마커 이미지 
-        });
-    }
+
+
+
     </script>
-</body>
+
 </html>
