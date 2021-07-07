@@ -1,21 +1,4 @@
 {
-    "MiddlePoint": [
-        {
-            "Row Labels": "마포",
-            "Average of Latitude": "37.53828843",
-            "Average of Longitude": "126.9335615"
-        },
-        {
-            "Row Labels": "상계동",
-            "Average of Latitude": "37.60455597",
-            "Average of Longitude": "127.0551867"
-        },
-        {
-            "Row Labels": "Grand Total",
-            "Average of Latitude": "37.5714222",
-            "Average of Longitude": "126.9943741"
-        }
-    ],
     "shuttlebuslist": [
         {
             "BusNo": "1",
