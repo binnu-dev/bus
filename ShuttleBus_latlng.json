@@ -1,76 +1,1326 @@
 {
+    "MiddlePoint": [
+        {
+            "Row Labels": "마포",
+            "Average of Latitude": "37.53828843",
+            "Average of Longitude": "126.9335615"
+        },
+        {
+            "Row Labels": "상계동",
+            "Average of Latitude": "37.60455597",
+            "Average of Longitude": "127.0551867"
+        },
+        {
+            "Row Labels": "Grand Total",
+            "Average of Latitude": "37.5714222",
+            "Average of Longitude": "126.9943741"
+        }
+    ],
     "shuttlebuslist": [
         {
             "BusNo": "1",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "상계동",
-            "StopName": "하계역5번출구 (택시승강장)",
-            "StopTime": "06:05",
-            "Latitude": "37.63559889",
-            "Longitude": "127.0674776"
+            "StopName": "하계역5번출구 ",
+            "StopNameDetail": "택시승강장",
+            "StopTime": "6:05:00 AM",
+            "Latitude": "37.635478",
+            "Longitude": "127.0673931"
         },
         {
             "BusNo": "1",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "상계동",
-            "StopName": "이문동방향 돌곶이사거리 (석관동삼천리자전거앞)",
-            "StopTime": "06:13",
-            "Latitude": "37.6094746",
-            "Longitude": "127.0582225"
+            "StopName": "이문동방향 돌곶이사거리 ",
+            "StopNameDetail": "석관동삼천리자전거앞",
+            "StopTime": "6:13:00 AM",
+            "Latitude": "37.60953861",
+            "Longitude": "127.0582696"
         },
         {
             "BusNo": "1",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "상계동",
             "StopName": "시조사20m후방",
-            "StopTime": "06:18",
-            "Latitude": "37.58779774",
-            "Longitude": "127.0530274"
+            "StopTime": "6:18:00 AM",
+            "Latitude": "37.5886643",
+            "Longitude": "127.0540531"
         },
         {
             "BusNo": "1",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "상계동",
-            "StopName": "제기동(1호선1번)\r\n지하철파출소",
-            "StopTime": "06:27",
-            "Latitude": "37.58535264",
-            "Longitude": "127.0420195"
+            "StopName": "제기동1호선1번",
+            "StopTime": "6:27:00 AM",
+            "Latitude": "37.57820742",
+            "Longitude": "127.0334053"
+        },
+        {
+            "BusNo": "1",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상계동",
+            "StopName": "연대정문 앞",
+            "StopTime": "6:46:00 AM",
+            "Latitude": "37.56015049",
+            "Longitude": "126.9364743"
         },
         {
             "BusNo": "2",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "마포",
             "StopName": "마포경찰서 현대하이엘앞",
-            "StopTime": "06:38",
-            "Latitude": "37.55054179",
-            "Longitude": "126.9549775"
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.54985268",
+            "Longitude": "126.9547159"
         },
         {
             "BusNo": "2",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "마포",
-            "StopName": "공덕오거리 마포우체국(공사중) 신라스테이앞",
-            "StopTime": "06:40",
-            "Latitude": "37.54302449",
-            "Longitude": "126.9532116"
+            "StopName": "공덕오거리 마포우체국",
+            "StopNameDetail": "신라스테이앞",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.54289143",
+            "Longitude": "126.9500099"
         },
         {
             "BusNo": "2",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "마포",
             "StopName": "여의도환승센타버스정류장",
-            "StopTime": "6:45",
-            "Latitude": "37.52545758",
-            "Longitude": "126.9240776"
+            "StopNameDetail": "공원바로옆 버스정류장 횡단보도전",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.52598503",
+            "Longitude": "126.9242466"
         },
         {
             "BusNo": "2",
             "Category": "서울/경기 지역 사무직(08시) 출근",
             "RouteName": "마포",
             "StopName": "당산역",
-            "StopTime": "6:55",
-            "Latitude": "37.53412987",
-            "Longitude": "126.9019794"
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.5330619",
+            "Longitude": "126.9012288"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "강북구청입구",
+            "StopTime": "6:15:00 AM",
+            "Latitude": "37.6389653",
+            "Longitude": "127.0265237"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "미아3거리이마트",
+            "StopTime": "6:20:00 AM",
+            "Latitude": "37.61126595",
+            "Longitude": "127.0301924"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "미도주유소앞",
+            "StopTime": "6:26:00 AM",
+            "Latitude": "37.6010062",
+            "Longitude": "127.0217844"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "삼선교 ",
+            "StopTime": "6:31:00 AM",
+            "Latitude": "37.58839235",
+            "Longitude": "127.0056889"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "안국역",
+            "StopNameDetail": "하나은행",
+            "StopTime": "6:36:00 AM",
+            "Latitude": "37.57652124",
+            "Longitude": "126.9853621"
+        },
+        {
+            "BusNo": "3",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수유리/미아리",
+            "StopName": "사직공원앞",
+            "StopNameDetail": "탑승인원 X",
+            "StopTime": "6:41:00 AM",
+            "Latitude": "37.57607784",
+            "Longitude": "126.9700372",
+            "Note": "탑승인원 없으니 폐지 요망"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "미아리",
+            "StopName": "연대정문 앞",
+            "StopTime": "6:46:00 AM",
+            "Latitude": "37.56015049",
+            "Longitude": "126.9364743",
+            "Note": "상계동 노선 통합"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "왕십리",
+            "StopName": "왕십리",
+            "StopTime": "6:23:00 AM",
+            "Latitude": "37.55813214",
+            "Longitude": "127.034057"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "왕십리",
+            "StopName": "신당동중앙시장",
+            "StopTime": "6:26:00 AM",
+            "Latitude": "37.56571821",
+            "Longitude": "127.0205029"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "왕십리",
+            "StopName": "대한극장건너",
+            "StopNameDetail": "탑승인원 X",
+            "StopTime": "6:32:00 AM",
+            "Latitude": "37.56156875",
+            "Longitude": "126.9955043",
+            "Note": "탑승인원 없으니 폐지 요망"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "왕십리",
+            "StopName": "남영한일주유소",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.54096972",
+            "Longitude": "126.9728783"
+        },
+        {
+            "BusNo": "4",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "왕십리",
+            "StopName": "한강대교 입구",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.52393171",
+            "Longitude": "126.9628019"
+        },
+        {
+            "BusNo": "5",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "불광동",
+            "StopName": "서부병원 대각선",
+            "StopTime": "6:34:00 AM",
+            "Latitude": "37.60009833",
+            "Longitude": "126.9220388"
+        },
+        {
+            "BusNo": "5",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "불광동",
+            "StopName": "응암5거리",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.59959218",
+            "Longitude": "126.9158009"
+        },
+        {
+            "BusNo": "5",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "불광동",
+            "StopName": "배순희산부인과",
+            "StopTime": "6:42:00 AM",
+            "Latitude": "37.57771709",
+            "Longitude": "126.9095434"
+        },
+        {
+            "BusNo": "5",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "불광동",
+            "StopName": "가좌역삼거리지나 우측",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.56959894",
+            "Longitude": "126.9138741"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "불광동",
+            "StopName": "합정역 ",
+            "StopTime": "6:51:00 AM",
+            "Latitude": "37.54981774",
+            "Longitude": "126.9140734",
+            "Note": "연신내 노선 통합"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "연신내",
+            "StopName": "연신내역 예일직업전문학교앞",
+            "StopNameDetail": "연신내역점 다비치안경",
+            "StopTime": "6:30:00 AM",
+            "Latitude": "37.61688688",
+            "Longitude": "126.923061"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "연신내",
+            "StopName": "불광역 시외버스",
+            "StopNameDetail": "버스중앙차선 정류장",
+            "StopTime": "6:32:00 AM",
+            "Latitude": "37.60953439",
+            "Longitude": "126.9306602"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "연신내",
+            "StopName": "녹번역버스정류장",
+            "StopNameDetail": "버스중앙차선 정류장",
+            "StopTime": "6:36:00 AM",
+            "Latitude": "37.60166909",
+            "Longitude": "126.9353128"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "연신내",
+            "StopName": "홍은사거리우측",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.5911815",
+            "Longitude": "126.940692"
+        },
+        {
+            "BusNo": "6",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "연신내",
+            "StopName": "합정역10번출구20M전삼화고속정류장",
+            "StopTime": "6:52:00 AM",
+            "Latitude": "37.54981774",
+            "Longitude": "126.9140734"
+        },
+        {
+            "BusNo": "7",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신촌/홍대입구",
+            "StopName": "신촌로터리",
+            "StopTime": "6:43:00 AM",
+            "Latitude": "37.55558807",
+            "Longitude": "126.9358422"
+        },
+        {
+            "BusNo": "7",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신촌/홍대입구",
+            "StopName": "홍대입구2호선2번출구",
+            "StopTime": "6:50:00 AM",
+            "Latitude": "37.55679772",
+            "Longitude": "126.9235046"
+        },
+        {
+            "BusNo": "7",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신촌/홍대입구",
+            "StopName": "양평동선유중학교앞",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.53226123",
+            "Longitude": "126.8947657"
+        },
+        {
+            "BusNo": "8",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "천호동",
+            "StopName": "천호동",
+            "StopTime": "6:22:00 AM",
+            "Latitude": "37.53771505",
+            "Longitude": "127.1230594"
+        },
+        {
+            "BusNo": "8",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "천호동",
+            "StopName": "영파여고육교앞",
+            "StopTime": "6:23:00 AM",
+            "Latitude": "37.53240495",
+            "Longitude": "127.1211535"
+        },
+        {
+            "BusNo": "8",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "천호동",
+            "StopName": "성내역50m전  ",
+            "StopNameDetail": "잠실나루역",
+            "StopTime": "6:27:00 AM",
+            "Latitude": "37.51886936",
+            "Longitude": "127.1060954"
+        },
+        {
+            "BusNo": "9",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "천호동",
+            "StopName": "양평고가50M전",
+            "StopNameDetail": "하나은행 당산동지점",
+            "StopTime": "6:54:00 AM",
+            "Latitude": "37.52882432",
+            "Longitude": "126.8950763",
+            "Note": "노량진 노선 통합"
+        },
+        {
+            "BusNo": "9",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "잠실",
+            "StopName": "주공5단지527동앞",
+            "StopTime": "6:30:00 AM",
+            "Latitude": "37.51463873",
+            "Longitude": "127.0987825"
+        },
+        {
+            "BusNo": "9",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "잠실",
+            "StopName": "잠실3단지",
+            "StopNameDetail": "잠실새내역 5번출구",
+            "StopTime": "6:35:00 AM",
+            "Latitude": "37.51176652",
+            "Longitude": "127.0847763"
+        },
+        {
+            "BusNo": "10",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "대치동",
+            "StopName": "대치선경APT건너",
+            "StopTime": "6:28:00 AM",
+            "Latitude": "37.49331899",
+            "Longitude": "127.0605713"
+        },
+        {
+            "BusNo": "10",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "대치동",
+            "StopName": "숙명여고육교밑",
+            "StopTime": "6:29:00 AM",
+            "Latitude": "37.49187418",
+            "Longitude": "127.0549824"
+        },
+        {
+            "BusNo": "10",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "대치동",
+            "StopName": "동부해오름맞은편",
+            "StopTime": "6:32:00 AM",
+            "Latitude": "37.50219098",
+            "Longitude": "127.0500972"
+        },
+        {
+            "BusNo": "10",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "대치동",
+            "StopName": "강남구청",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.51683072",
+            "Longitude": "127.0400378"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "강남구청",
+            "StopName": "양평동선유중학교앞",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.53226123",
+            "Longitude": "126.8947657",
+            "Note": "신촌/홍대입구 노선 통합"
+        },
+        {
+            "BusNo": "11",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신사동",
+            "StopName": "신사동 제이에스 강남웨딩홀",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.51436932",
+            "Longitude": "127.0198415"
+        },
+        {
+            "BusNo": "11",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신사동",
+            "StopName": "논현역 5번출구 100m앞",
+            "StopTime": "6:39:00 AM",
+            "Latitude": "37.51084095",
+            "Longitude": "127.0203969"
+        },
+        {
+            "BusNo": "11",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신사동",
+            "StopName": "반포역7호선5번출구",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.50770143",
+            "Longitude": "127.0097288"
+        },
+        {
+            "BusNo": "11",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신사동",
+            "StopName": "신반포중교 앞신반포역1번",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.50382402",
+            "Longitude": "126.9969581"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "노량진",
+            "StopName": "노량진사육신묘",
+            "StopTime": "6:35:00 AM",
+            "Latitude": "37.51285841",
+            "Longitude": "126.9496893"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "노량진",
+            "StopName": "신길사거리지나",
+            "StopTime": "6:42:00 AM",
+            "Latitude": "37.5148324",
+            "Longitude": "126.917907"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "노량진",
+            "StopName": "문래동",
+            "StopTime": "6:48:00 AM",
+            "Latitude": "37.51382265",
+            "Longitude": "126.8958911"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "노량진",
+            "StopName": "문래역 7번출구",
+            "StopTime": "6:49:00 AM",
+            "Latitude": "37.51645977",
+            "Longitude": "126.8945068"
+        },
+        {
+            "BusNo": "12",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "노량진",
+            "StopName": "양평고가50M전",
+            "StopNameDetail": "하나은행 당산동지점",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.52882432",
+            "Longitude": "126.8950763"
+        },
+        {
+            "BusNo": "13",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상도동",
+            "StopName": "상도터널입구",
+            "StopNameDetail": "정동병원",
+            "StopTime": "6:30:00 AM",
+            "Latitude": "37.50492195",
+            "Longitude": "126.9496778"
+        },
+        {
+            "BusNo": "13",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상도동",
+            "StopName": "장승백이육교",
+            "StopNameDetail": "성대자원",
+            "StopTime": "6:31:00 AM",
+            "Latitude": "37.50356783",
+            "Longitude": "126.9368637"
+        },
+        {
+            "BusNo": "13",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상도동",
+            "StopName": "신대방삼거리",
+            "StopTime": "6:32:00 AM",
+            "Latitude": "37.49990678",
+            "Longitude": "126.9308218"
+        },
+        {
+            "BusNo": "13",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상도동",
+            "StopName": "보라매공원입구",
+            "StopNameDetail": "보라매경남아너스빌 상가앞",
+            "StopTime": "6:41:00 AM",
+            "Latitude": "37.49473009",
+            "Longitude": "126.9109453"
+        },
+        {
+            "BusNo": "13",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "상도동",
+            "StopName": "구로공단역",
+            "StopNameDetail": "구로 디지털 단지역",
+            "StopTime": "6:44:00 AM",
+            "Latitude": "37.48547386",
+            "Longitude": "126.9033372"
+        },
+        {
+            "BusNo": "14",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "사당동",
+            "StopName": "사당역낙성대방향70M",
+            "StopNameDetail": "안경박사",
+            "StopTime": "6:35:00 AM",
+            "Latitude": "37.47668986",
+            "Longitude": "126.9786697"
+        },
+        {
+            "BusNo": "15",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "사당동",
+            "StopName": "낙성대 (길성의원)",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.47925587",
+            "Longitude": "126.9582668"
+        },
+        {
+            "BusNo": "14",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "사당동",
+            "StopName": "봉천사거리S오일주유소",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.48216322",
+            "Longitude": "126.9450384"
+        },
+        {
+            "BusNo": "14",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "사당동",
+            "StopName": "디지털오거리전육교밑",
+            "StopNameDetail": "정류장폐쇠",
+            "StopTime": "6:48:00 AM",
+            "Note": "정류장 폐지"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "낙성대",
+            "StopName": "낙성대",
+            "StopNameDetail": "길성의원앞",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.47921543",
+            "Longitude": "126.9583365",
+            "Note": "신림동 노선 통합"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "낙성대",
+            "StopName": "봉천사거리S오일주유소",
+            "StopTime": "6:40:00 AM",
+            "Latitude": "37.48216322",
+            "Longitude": "126.9450384",
+            "Note": "사당 노선 통합"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "낙성대",
+            "StopName": "신림사거리",
+            "StopTime": "6:44:00 AM",
+            "Latitude": "37.48377861",
+            "Longitude": "126.9259037",
+            "Note": "신림동 노선 통합"
+        },
+        {
+            "BusNo": "15",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신림동",
+            "StopName": "신림사거리",
+            "StopTime": "6:44:00 AM",
+            "Latitude": "37.48377861",
+            "Longitude": "126.9259037"
+        },
+        {
+            "BusNo": "15",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신림동",
+            "StopName": "남부경찰서",
+            "StopNameDetail": "금천경찰서",
+            "StopTime": "6:48:00 AM",
+            "Latitude": "37.48116969",
+            "Longitude": "126.9105128"
+        },
+        {
+            "BusNo": "15",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신림동",
+            "StopName": "구일초교 입구",
+            "StopNameDetail": "육교밑 버스정류장",
+            "StopTime": "6:53:00 AM",
+            "Latitude": "37.48968033",
+            "Longitude": "126.8758035"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "신림동",
+            "StopName": "신정동 한성교회 (푸주옥)",
+            "StopNameDetail": "푸주옥 앞",
+            "StopTime": "6:58:00 AM",
+            "Latitude": "37.51027439",
+            "Longitude": "126.8425871"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "광명한진APT 건너",
+            "StopNameDetail": "대성N스쿨",
+            "StopTime": "6:50:00 AM",
+            "Latitude": "37.47661619",
+            "Longitude": "126.8531252"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "국민은행 개봉동 남지점",
+            "StopTime": "6:52:00 AM",
+            "Latitude": "37.48652161",
+            "Longitude": "126.856472"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "예담한의원앞",
+            "StopNameDetail": "정류장폐쇠",
+            "StopTime": "6:53:00 AM",
+            "Note": "정류장 폐지"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "삼성정형외과의원",
+            "StopNameDetail": "개봉동 현대아파트 1차 버스정류장",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.49183414",
+            "Longitude": "126.8559911"
+        },
+        {
+            "BusNo": "16",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "순환도로입구",
+            "StopNameDetail": "오류IC",
+            "StopTime": "6:57:00 AM",
+            "Latitude": "37.4981326",
+            "Longitude": "126.8517472"
+        },
+        {
+            "BusNo": "15",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "개봉동",
+            "StopName": "신월동",
+            "StopNameDetail": "남부주유소",
+            "StopTime": "7:02:00 AM",
+            "Latitude": "37.51931229",
+            "Longitude": "126.8384471"
+        },
+        {
+            "BusNo": "20",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로공단",
+            "StopName": "구로공단역",
+            "StopTime": "6:43:00 AM",
+            "Latitude": "37.48547386",
+            "Longitude": "126.9033372",
+            "Note": "상도동 노선 통합"
+        },
+        {
+            "BusNo": "20",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로공단",
+            "StopName": "구로시장입구",
+            "StopNameDetail": "정류장폐쇠",
+            "StopTime": "6:49:00 AM",
+            "Note": "정류장 폐쇠"
+        },
+        {
+            "BusNo": "20",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로공단",
+            "StopName": "구로역육교밑",
+            "StopTime": "6:54:00 AM",
+            "Latitude": "37.49993283",
+            "Longitude": "126.8832815",
+            "Note": "구로 노선 통합"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로",
+            "StopName": "구로역육교밑애경백화점",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.49993283",
+            "Longitude": "126.8832815"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로",
+            "StopName": "양천구청역",
+            "StopTime": "6:58:00 AM",
+            "Latitude": "37.51248112",
+            "Longitude": "126.8652196"
+        },
+        {
+            "BusNo": "17",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "구로",
+            "StopName": "계남공원건너편",
+            "StopTime": "7:00:00 AM",
+            "Latitude": "37.51075086",
+            "Longitude": "126.8576277"
+        },
+        {
+            "BusNo": "18",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "오목교/목동오거리",
+            "StopName": "오목교역",
+            "StopNameDetail": "해몽앞",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.52451218",
+            "Longitude": "126.8752929",
+            "Note": "19년도 신설"
+        },
+        {
+            "BusNo": "18",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "오목교/목동오거리",
+            "StopName": "목동오거리투자신탁",
+            "StopNameDetail": "JT저축은행 목동지점",
+            "StopTime": "6:50:00 AM",
+            "Latitude": "37.52526269",
+            "Longitude": "126.8645002"
+        },
+        {
+            "BusNo": "18",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "오목교/목동오거리",
+            "StopName": "목동13단지",
+            "StopTime": "6:52:00 AM",
+            "Latitude": "37.51369118",
+            "Longitude": "126.868774"
+        },
+        {
+            "BusNo": "18",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "오목교/목동오거리",
+            "StopName": "다온동물병원 (해성산부인과)",
+            "StopTime": "6:59:00 AM",
+            "Latitude": "37.51706126",
+            "Longitude": "126.8542998"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "목동오거리",
+            "StopName": "계남공원건너편",
+            "StopNameDetail": "탑승인원 X",
+            "StopTime": "6:57:00 AM",
+            "Latitude": "37.51075086",
+            "Longitude": "126.8576277",
+            "Note": "구로 노선 통합"
+        },
+        {
+            "BusNo": "19",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포공항",
+            "StopName": "송정역 3번 출구",
+            "StopNameDetail": "양꼬치집앞",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.56104686",
+            "Longitude": "126.8123304"
+        },
+        {
+            "BusNo": "19",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포공항",
+            "StopName": "마곡역6번출구",
+            "StopNameDetail": "버스정류장",
+            "StopTime": "6:47:00 AM",
+            "Latitude": "37.55976522",
+            "Longitude": "126.8254709"
+        },
+        {
+            "BusNo": "19",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포공항",
+            "StopName": "화곡역 7번 출구",
+            "StopNameDetail": "롯데리아앞",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.54131367",
+            "Longitude": "126.8392623"
+        },
+        {
+            "BusNo": "19",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포공항",
+            "StopName": "오정동",
+            "StopNameDetail": "탑승인원 X",
+            "StopTime": "7:02:00 AM",
+            "Latitude": "37.52696837",
+            "Longitude": "126.7827062",
+            "Note": "탑승인원 없으니 폐지 요망"
+        },
+        {
+            "BusNo": "20",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "강서구청",
+            "StopName": "원당",
+            "StopNameDetail": "발산역사거리",
+            "StopTime": "6:53:00 AM",
+            "Latitude": "37.55820161",
+            "Longitude": "126.8406666"
+        },
+        {
+            "BusNo": "20",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "강서구청",
+            "StopName": "강서구청사거리",
+            "StopTime": "6:56:00 AM",
+            "Latitude": "37.5537259",
+            "Longitude": "126.8510884"
+        },
+        {
+            "BusNo": "21",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "등촌동",
+            "StopName": "등촌역9호선7번출구",
+            "StopTime": "6:58:00 AM",
+            "Latitude": "37.55052451",
+            "Longitude": "126.8639833"
+        },
+        {
+            "BusNo": "21",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "등촌동",
+            "StopName": "현대아이파크 104동",
+            "StopTime": "6:59:00 AM",
+            "Latitude": "37.54371401",
+            "Longitude": "126.8621658"
+        },
+        {
+            "BusNo": "21",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "등촌동",
+            "StopName": "오약국맞은편외환은행앞",
+            "StopNameDetail": "스타벅스",
+            "StopTime": "7:02:00 AM",
+            "Latitude": "37.53512751",
+            "Longitude": "126.8634552"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "양천구청",
+            "StopName": "양천구청역",
+            "StopNameDetail": "탑승인원 X",
+            "StopTime": "6:53:00 AM",
+            "Latitude": "37.51248112",
+            "Longitude": "126.8652196",
+            "Note": "구로 노선 통합"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "양천구청",
+            "StopName": "순환도로입구",
+            "StopNameDetail": "오류IC",
+            "StopTime": "7:01:00 AM",
+            "Latitude": "37.4981326",
+            "Longitude": "126.8517472",
+            "Note": "개봉동 노선 통합"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 1",
+            "StopName": "파주교하센타프라자",
+            "StopNameDetail": "교하제일약국",
+            "StopTime": "6:27:00 AM",
+            "Latitude": "37.72631174",
+            "Longitude": "126.7180313"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 1",
+            "StopName": "운정신도시 해솔마을404동앞",
+            "StopTime": "6:33:00 AM",
+            "Latitude": "37.72782106",
+            "Longitude": "126.7517084"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 1",
+            "StopName": "운정이마트옆",
+            "StopTime": "6:37:00 AM",
+            "Latitude": "37.71005302",
+            "Longitude": "126.746198"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 1",
+            "StopName": "대화역1번출구앞                    ",
+            "StopNameDetail": "KEB외환은행 앞",
+            "StopTime": "6:47:00 AM",
+            "Latitude": "37.67583561",
+            "Longitude": "126.7479241"
+        },
+        {
+            "BusNo": "22",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 1",
+            "StopName": "백석역4번출구",
+            "StopTime": "6:58:00 AM",
+            "Latitude": "37.64435986",
+            "Longitude": "126.7859644"
+        },
+        {
+            "BusNo": "23",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 2",
+            "StopName": "주엽역1번출구앞                          ",
+            "StopNameDetail": "NH농협은행 앞",
+            "StopTime": "6:49:00 AM",
+            "Latitude": "37.66972287",
+            "Longitude": "126.7617815"
+        },
+        {
+            "BusNo": "23",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 2",
+            "StopName": "정발산역1번출구                                ",
+            "StopNameDetail": "공원앞",
+            "StopTime": "6:51:00 AM",
+            "Latitude": "37.65908035",
+            "Longitude": "126.7734017"
+        },
+        {
+            "BusNo": "23",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 2",
+            "StopName": "마두역1번출구앞                    ",
+            "StopNameDetail": "서륭빌딩",
+            "StopTime": "6:55:00 AM",
+            "Latitude": "37.6513901",
+            "Longitude": "126.7778689"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "일산SBS                                 우리은행 앞",
+            "StopTime": "6:16:00 AM",
+            "Latitude": "37.69481728",
+            "Longitude": "126.7646948"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "현산초등학교앞",
+            "StopNameDetail": "일암장로교회",
+            "StopTime": "6:19:00 AM",
+            "Latitude": "37.6933727",
+            "Longitude": "126.7721524"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "ACE TOWN 102동                  에니카랜드앞",
+            "StopNameDetail": "기아서비스일산북부점 (탑승인원X)",
+            "StopTime": "6:22:00 AM",
+            "Latitude": "37.6878379",
+            "Longitude": "126.7772337"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "일산",
+            "StopNameDetail": "일산복음병원",
+            "StopTime": "6:25:00 AM",
+            "Latitude": "37.68211999",
+            "Longitude": "126.7809614"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "동국대병원사거리                    SK풍동충전소 옆",
+            "StopTime": "6:30:00 AM",
+            "Latitude": "37.67295371",
+            "Longitude": "126.8064659"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "고양소방서",
+            "StopNameDetail": "덕양구견인차보관소",
+            "StopTime": "6:35:00 AM",
+            "Latitude": "37.65479502",
+            "Longitude": "126.8324795"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "신안3단지",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.64297148",
+            "Longitude": "126.8336055"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "화정역1번출구",
+            "StopTime": "6:41:00 AM",
+            "Latitude": "37.63440279",
+            "Longitude": "126.8339286"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "GS덕양주유소",
+            "StopTime": "6:44:00 AM",
+            "Latitude": "37.6251183",
+            "Longitude": "126.8351593"
+        },
+        {
+            "BusNo": "24",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "일산 3",
+            "StopName": "행신역 길건너 기아모터스",
+            "StopTime": "6:48:00 AM",
+            "Latitude": "37.6127361",
+            "Longitude": "126.8336229"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "장기동 중흥S클래스607동",
+            "StopNameDetail": "김포이동주민센터",
+            "StopTime": "6:25:00 AM",
+            "Latitude": "37.65186505",
+            "Longitude": "126.6716098"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "장기동우리은행                        ",
+            "StopNameDetail": "하나선시티 앞",
+            "StopTime": "6:28:00 AM",
+            "Latitude": "37.64513211",
+            "Longitude": "126.6668444"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "장기동 롯데마트                         ",
+            "StopNameDetail": "롯데마트 김포한강점",
+            "StopTime": "6:29:00 AM",
+            "Latitude": "37.64078113",
+            "Longitude": "126.6764346"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "예가110동 앞                             ",
+            "StopNameDetail": "구두수선집",
+            "StopTime": "6:31:00 AM",
+            "Latitude": "37.64378426",
+            "Longitude": "126.6807741"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "걸포삼거리",
+            "StopNameDetail": "북변걸포역2번출구",
+            "StopTime": "6:37:00 AM",
+            "Latitude": "37.6315471",
+            "Longitude": "126.7053394"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "사우동",
+            "StopNameDetail": "신한은행 김포금융센터",
+            "StopTime": "6:45:00 AM",
+            "Latitude": "37.61985065",
+            "Longitude": "126.7196526"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "풍무동 양도사거리 대림@",
+            "StopTime": "6:49:00 AM",
+            "Latitude": "37.60473357",
+            "Longitude": "126.7221295"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "당곡마을 센트럴 메디프라자 앞",
+            "StopTime": "6:52:00 AM",
+            "Latitude": "37.59857787",
+            "Longitude": "126.7204959"
+        },
+        {
+            "BusNo": "25",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "김포",
+            "StopName": "고촌농협 앞",
+            "StopTime": "7:02:00 AM",
+            "Latitude": "37.60118695",
+            "Longitude": "126.7701799"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "성남/군포",
+            "StopName": "정자역6번출구",
+            "StopTime": "6:10:00 AM",
+            "Latitude": "37.36722566",
+            "Longitude": "127.1081312"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "성남/군포",
+            "StopName": "서현역 2,3번출구",
+            "StopNameDetail": "서현고가도 아래",
+            "StopTime": "6:15:00 AM",
+            "Latitude": "37.38383669",
+            "Longitude": "127.1238737"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "성남/군포",
+            "StopName": "낙생육교 버스정류장 뒷쪽",
+            "StopTime": "6:24:00 AM",
+            "Latitude": "37.39184293",
+            "Longitude": "127.1108317"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "성남/군포",
+            "StopName": "군포 산본역",
+            "StopNameDetail": "산본대림아파트10단지",
+            "StopTime": "6:38:00 AM",
+            "Latitude": "37.36468428",
+            "Longitude": "126.9295868"
+        },
+        {
+            "BusNo": "26",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "성남/군포",
+            "StopName": "군포 산본역",
+            "StopNameDetail": "군포우체국",
+            "StopTime": "6:42:00 AM",
+            "Latitude": "37.36004829",
+            "Longitude": "126.9335989"
+        },
+        {
+            "BusNo": "27",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수원/안양/의왕",
+            "StopName": "수원역",
+            "StopTime": "6:10:00 AM",
+            "Latitude": "37.26459917",
+            "Longitude": "127.0018547"
+        },
+        {
+            "BusNo": "27",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수원/안양/의왕",
+            "StopName": "화서역",
+            "StopTime": "6:15:00 AM",
+            "Latitude": "37.28461685",
+            "Longitude": "126.9899449"
+        },
+        {
+            "BusNo": "27",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수원/안양/의왕",
+            "StopName": "성대역",
+            "StopTime": "6:20:00 AM",
+            "Latitude": "37.30142318",
+            "Longitude": "126.9729566"
+        },
+        {
+            "BusNo": "27",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "수원/안양/의왕",
+            "StopName": "의왕시 오전동",
+            "StopTime": "6:32:00 AM",
+            "Latitude": "37.35639819",
+            "Longitude": "126.9680484"
+        },
+        {
+            "BusNo": "28",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "범계사거리",
+            "StopName": "범계사거리",
+            "StopTime": "6:39:00 AM",
+            "Latitude": "37.38794185",
+            "Longitude": "126.9497712"
+        },
+        {
+            "BusNo": "28",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "범계사거리",
+            "StopName": "비산사거리",
+            "StopTime": "6:42:00 AM",
+            "Latitude": "37.39789763",
+            "Longitude": "126.9356904"
+        },
+        {
+            "BusNo": "28",
+            "Category": "서울/경기 지역 사무직(08시) 출근",
+            "RouteName": "범계사거리",
+            "StopName": "석수동 삼성초등학교입구",
+            "StopTime": "6:47:00 AM",
+            "Latitude": "37.41868523",
+            "Longitude": "126.9112587"
         }
     ]
 }
