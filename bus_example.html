@@ -94,13 +94,8 @@
                     content: `<div style="padding:5px;">${stop.StopName}<br>${stop.StopTime}</div>`
                 });
 
-                kakao.maps.event.addListener(marker, 'mouseover', function() {
-                    infowindow.open(map, marker);
-                });
-
-                kakao.maps.event.addListener(marker, 'mouseout', function() {
-                    infowindow.close();
-                });
+                
+                infowindow.open(map, marker);
 
                 kakao.maps.event.addListener(marker, 'click', function() {
                     showRoadview(position);
