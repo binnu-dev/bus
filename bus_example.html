@@ -1,62 +1,152 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <meta charset="utf-8">
-    <title>지도 생성하기</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>셔틀버스 노선 정보</title>
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26bcd796d202aa35c6cef7347d0fa171"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        #map { height: 400px; width: 100%; margin-top: 20px; }
+        #roadview { height: 400px; width: 100%; margin-top: 20px; display: none; }
+        select { padding: 10px; font-size: 16px; margin-bottom: 20px; }
+        #routeInfo { margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .clickable { cursor: pointer; color: blue; text-decoration: underline; }
+    </style>
 </head>
-
 <body>
-    <!-- 지도를 표시할 div 입니다 -->
-    <p id="data"></p>
-    <div id="map" style="width:100%;height:100vh;"></div>
+    <h1>셔틀버스 노선 정보</h1>
+    <select id="routeSelect">
+        <option value="">노선을 선택하세요</option>
+    </select>
+    <div id="map"></div>
+    <div id="roadview"></div>
+    <div id="routeInfo"></div>
 
-    <script type="text/javascript"
-        src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26bcd796d202aa35c6cef7347d0fa171"></script>
     <script>
-        fetch("https://raw.githubusercontent.com/binnu-dev/bus/main/ShuttleBus_latlng.json")
-            .then(response => {
-                return response.json();
-            })
-            .then(myJson => {
-                const shuttlebuslist = myJson.shuttlebuslist;
+        let map, roadview, roadviewClient;
+        let markers = [];
+        let shuttlebusData;
 
-                var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-                    mapOption = {
-                        center: new kakao.maps.LatLng(37.6355988928871, 127.067477551033), // 지도의 중심좌표
-                        level: 8 // 지도의 확대 레벨
-                    };
+        function initMap() {
+            map = new kakao.maps.Map(document.getElementById('map'), {
+                center: new kakao.maps.LatLng(37.5665, 126.9780),
+                level: 7
+            });
 
-                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+            roadviewClient = new kakao.maps.RoadviewClient();
+            roadview = new kakao.maps.Roadview(document.getElementById('roadview'));
+        }
 
-                for (var i = 0; i < shuttlebuslist.length; i++) {
+        function loadShuttleBusData() {
+            fetch("https://raw.githubusercontent.com/binnu-dev/bus/main/ShuttleBus_latlng.json")
+                .then(response => response.json())
+                .then(data => {
+                    shuttlebusData = data.shuttlebuslist;
+                    populateRouteSelect();
+                });
+        }
 
-                    // 마커가 표시될 위치입니다 
-                    var markerPosition = new kakao.maps.LatLng(shuttlebuslist[i]['Latitude'], shuttlebuslist[i]['Longitude']);
+        function populateRouteSelect() {
+            const routeSelect = document.getElementById('routeSelect');
+            const routes = [...new Set(shuttlebusData.map(item => item.RouteName))];
+            routes.forEach(route => {
+                const option = document.createElement('option');
+                option.value = route;
+                option.textContent = route;
+                routeSelect.appendChild(option);
+            });
+        }
 
-                    // 마커를 생성합니다
-                    var marker = new kakao.maps.Marker({
-                        position: markerPosition
-                    });
+        function displayRouteInfo(routeName) {
+            const routeInfo = shuttlebusData.filter(item => item.RouteName === routeName);
+            const bounds = new kakao.maps.LatLngBounds();
+            
+            // Clear previous markers
+            markers.forEach(marker => marker.setMap(null));
+            markers = [];
 
-                    // 마커가 지도 위에 표시되도록 설정합니다
-                    marker.setMap(map);
+            // Create table for route information
+            let tableHTML = `
+                <table>
+                    <tr>
+                        <th>정류장</th>
+                        <th>세부 위치</th>
+                        <th>도착 시간</th>
+                    </tr>
+            `;
 
-                    var iwContent = '<div style="padding:5px;text-align:center;">' + shuttlebuslist[i]['StopName'] + '</br>' + shuttlebuslist[i]['StopTime'] + '</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-                        iwPosition = new kakao.maps.LatLng(shuttlebuslist[i]['Latitude'], shuttlebuslist[i]['Longitude']); //인포윈도우 표시 위치입니다
+            routeInfo.forEach((stop, index) => {
+                const position = new kakao.maps.LatLng(stop.Latitude, stop.Longitude);
+                bounds.extend(position);
 
-                    // 인포윈도우를 생성합니다
-                    var infowindow = new kakao.maps.InfoWindow({
-                        position: iwPosition,
-                        content: iwContent
-                    });
+                const marker = new kakao.maps.Marker({
+                    position: position,
+                    map: map
+                });
 
-                    // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+                markers.push(marker);
+
+                const infowindow = new kakao.maps.InfoWindow({
+                    content: `<div style="padding:5px;">${stop.StopName}<br>${stop.StopTime}</div>`
+                });
+
+                kakao.maps.event.addListener(marker, 'mouseover', function() {
                     infowindow.open(map, marker);
+                });
 
+                kakao.maps.event.addListener(marker, 'mouseout', function() {
+                    infowindow.close();
+                });
+
+                kakao.maps.event.addListener(marker, 'click', function() {
+                    showRoadview(position);
+                });
+
+                tableHTML += `
+                    <tr>
+                        <td class="clickable" onclick="zoomToLocation(${stop.Latitude}, ${stop.Longitude})">${stop.StopName}</td>
+                        <td>${stop.StopNameDetail || '-'}</td>
+                        <td>${stop.StopTime}</td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</table>';
+            document.getElementById('routeInfo').innerHTML = tableHTML;
+
+            map.setBounds(bounds);
+        }
+
+        function showRoadview(position) {
+            roadviewClient.getNearestPanoId(position, 50, function(panoId) {
+                if (panoId) {
+                    document.getElementById('roadview').style.display = 'block';
+                    roadview.setPanoId(panoId, position);
+                } else {
+                    alert('이 위치에서는 로드뷰를 이용할 수 없습니다.');
                 }
-            })
+            });
+        }
 
+        function zoomToLocation(lat, lng) {
+            const position = new kakao.maps.LatLng(lat, lng);
+            map.setCenter(position);
+            map.setLevel(3); // Zoom level (1: 최대 확대, 14: 최대 축소)
+        }
+
+        document.getElementById('routeSelect').addEventListener('change', function() {
+            const selectedRoute = this.value;
+            if (selectedRoute) {
+                displayRouteInfo(selectedRoute);
+            }
+        });
+
+        initMap();
+        loadShuttleBusData();
     </script>
-
+</body>
 </html>
